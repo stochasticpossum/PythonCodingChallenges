@@ -2,7 +2,7 @@
 """
 Challenge 1
 
-In this challenge you will a fucntion called update_employee_database() to parse a CSV file that includes an employee database (stored at employee.csv). This database has five columns:
+In this challenge you will write a function called update_employee_database() to parse a CSV file that includes an employee database (stored at employee.csv). This database has five columns:
     * Employee Name (String)
     * Employee ID (alphanumeric String)
     * Employee Tenure (integerr indicating years of service)
