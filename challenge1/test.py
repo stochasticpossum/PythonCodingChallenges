@@ -6,7 +6,7 @@ def test_update_employee_database():
     challenge.update_employee_database()
 
     # Verify that Jane Smith's last name has been updated
-    with open('/Users/adampintoro/Code/PythonCodingChallenges/challenge1/employee.csv', 'r') as file:
+    with open('employee.csv', 'r') as file:
         reader = csv.reader(file)
         for row in reader:
             if row[0] == 'Jane Doe':
@@ -18,7 +18,7 @@ def test_update_employee_database():
             assert False, "Jane Doe not found in the employee database"
     
     # Verify that the new employee has been added
-    with open('/Users/adampintoro/Code/PythonCodingChallenges/challenge1/employee.csv', 'r') as file:
+    with open('employee.csv', 'r') as file:
         reader = csv.reader(file)
         for row in reader:
             if row[0] == 'Bill Murray':
