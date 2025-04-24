@@ -11,3 +11,5 @@ The function should return a list of tuples. Each tuple should contain the port 
 
 SEnsure the function correctly validates IP addresses before attempting to connect to them.
 """
+
+#Write your code here
